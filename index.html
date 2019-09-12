@@ -8,9 +8,25 @@
 <body>
 	<div id="wrap">
 		<h1>todos</h1>
-		<input type="text" placeholder="What needs to be done?">
-		<h2>222</h2>
+		<div id="border_wrap">
+			<div class="input">
+				<input type="text" placeholder="What needs to be done?" autofocus>
+				<label class="allcheck"></label>
+			</div>
+			<div class="toggle">
+				<ul class="list"></ul>
+				<div class="footer">
+					<p class="count"><span>0</span> item left</p>
+					<ul>
+						<li class="all_btn selected">All</li>
+						<li class="active_btn">Active</li>
+						<li class="comple_btn">Completed</li>
+					</ul>
+					<p class="clear_btn">Clear completed</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </html>
